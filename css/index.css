@@ -82,8 +82,7 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 1px solid grey;
-  /* DONT FORGET TO REMOVE BORDER */
+  border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -209,6 +208,8 @@ button:hover {
 /* 500px Breakpoint Styles */
 
 @media (max-width: 500px) {
+  /* Nav Styles */
+
   /* Top Section Styles */
 
   .title-container {
@@ -217,6 +218,16 @@ button:hover {
 
   .title-container div {
     width: 100%;
+    background-size: cover;
+  }
+
+  .title-container div h1 {
+    font-size: 5rem;
+    line-height: 1.2;
+  }
+
+  .title-container div button {
+    padding: 2% 4%;
   }
 
   /* Bottom Section Styles */
