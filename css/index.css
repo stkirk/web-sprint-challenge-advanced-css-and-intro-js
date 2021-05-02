@@ -209,7 +209,13 @@ button:hover {
 
 @media (max-width: 500px) {
   /* Nav Styles */
+  nav {
+    width: 60%;
+  }
 
+  nav a {
+    font-size: 2rem;
+  }
   /* Top Section Styles */
 
   .title-container {
@@ -228,6 +234,10 @@ button:hover {
 
   .title-container div button {
     padding: 2% 4%;
+  }
+
+  .title-container hr {
+    width: 100%;
   }
 
   /* Bottom Section Styles */
@@ -249,5 +259,6 @@ button:hover {
   .bio {
     margin-right: 0;
     margin-left: 0;
+    padding-bottom: 7%;
   }
 }
